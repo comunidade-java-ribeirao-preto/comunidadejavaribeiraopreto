@@ -157,8 +157,22 @@ section#intro .java-icon {
     margin: 20px 0;
 }
 
-section#about, section#events, section#contact {
+section#about, section#contact {
     background: #fff;
+}
+
+section#events{
+    background: #007396; /* Azul Java */
+    color: #fff;
+    padding: 2rem 0;
+
+}
+
+section#gallery{
+    background: #fff; 
+    padding: 2rem 0;
+    text-align: center;
+
 }
 
 section#about .section-img,
