@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA Ribeirão Preto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo-java-ribeirao-preto.png" type="image/png">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="java-icon.png" alt="Logo JAVA Ribeirão Preto" class="logo">
+            <h1>Comunidade JAVA Ribeirão Preto</h1>
+            <nav>
+                <ul>
+                    <li><a href="#intro">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#events">Eventos</a></li>
+                    <li><a href="#supporters">Apoiadores</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="theme-switcher">
+                <input type="checkbox" id="theme-toggle">
+                <label for="theme-toggle">
+                    <span class="moon-icon">&#9731;</span>
+                    <span class="sun-icon">&#9728;</span>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <section id="intro">
+        <div class="container">
+            <img src="logo-java-ribeirao-preto.png" alt="Ícone Java" class="java-icon">
+            <h2>Bem-vindo à Comunidade Java Ribeirão Preto</h2>
+            <p>Somos uma comunidade dedicada a desenvolvedores e entusiastas da linguagem Java. Junte-se a nós para eventos, palestras e muito mais!</p>
+            <button id="signup-button">Inscreva-se</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <!-- <img src="about-us.jpg" alt="Sobre Nós" class="section-img"> -->
+            <p>A Comunidade JAVA Ribeirão Preto tem como objetivo promover o desenvolvimento e a troca de conhecimentos sobre a linguagem Java. Oferecemos eventos, workshops e networking para todos os interessados em Java.</p>
+        </div>
+    </section>
+
+    <section id="events">
+        <div class="container">
+            <h2>Eventos</h2>
+            <!-- <img src="events.jpg" alt="Eventos" class="section-img"> -->
+            <ul>
+                <li>Encontro Mensal de Desenvolvedores</li>
+                <li>Workshop de Introdução ao Java</li>
+                <li>Palestra sobre Java 21</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="supporters">
+        <div class="container">
+            <h2>Apoiadores</h2>
+            <!-- <img src="supporters.jpg" alt="Apoiadores" class="section-img"> -->
+            <p class="container-text">Seja um apoiador desse projeto e contribua para o desevolvimento da nossa comunidade.</p>
+            <!-- 
+            <ul>
+                <li>Empresa A</li>
+                <li>Empresa B</li>
+                <li>Empresa C</li>
+            </ul>
+            -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco através do e-mail comunidadejavaribeiraopreto@gmail.com 
+                para mais informações sobre a comunidade e nossos eventos </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Comunidade JAVA Ribeirão Preto</p>
+    </footer>
+
+    <!-- Pop-up de Inscrição -->
+    <div class="popup" id="signup-popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h2>Inscreva-se</h2>
+            <form>
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="dob">Data de Nascimento</label>
+                <input type="date" id="dob" name="dob" required>
+                <label for="city">Cidade</label>
+                <input type="text" id="city" name="city" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
