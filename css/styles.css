@@ -316,6 +316,26 @@ footer p {
     transform: scale(1.05);
 }
 
+/* Botão Inscreva-se */
+#group-whatsapp {
+    background-color: #007396; /* Azul Java */
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 20px;
+}
+
+#group-whatsapp:hover {
+    background-color: #005b8a;
+    transform: scale(1.05);
+}
+
 .buttons {
     background-color: #007396; /* Azul Java */
     color: #fff;
