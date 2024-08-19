@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const themeToggle = document.getElementById('theme-toggle');
     const body = document.body;
 
+    /*
     // Verificar o tema atual no localStorage
     const currentTheme = localStorage.getItem('theme') || 'light';
     body.setAttribute('data-theme', currentTheme);
@@ -12,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         body.setAttribute('data-theme', newTheme);
         localStorage.setItem('theme', newTheme);
     });
+    */
 
     // Pop-up de inscrição
     const signupButton = document.getElementById('signup-button');
