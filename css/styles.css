@@ -143,6 +143,11 @@ section {
     padding: 2rem 0;
 }
 
+section#gallery img {
+    max-width: 100%; /* A imagem não ultrapassa a largura do contêiner */
+    height: auto;
+}
+
 section#intro {
     background: #f4f4f4;
     text-align: center;
