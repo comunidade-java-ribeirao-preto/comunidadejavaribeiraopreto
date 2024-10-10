@@ -368,4 +368,5 @@ footer p {
 .imagem-ajustada {
     width: 500px; 
     height: auto; 
+    border-radius: 10px;
 }
