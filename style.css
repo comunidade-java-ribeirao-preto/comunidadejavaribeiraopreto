@@ -643,6 +643,36 @@ header {
     color: var(--accent-color);
 }
 
+.link-golden {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    transition: var(--transition);
+}
+
+.link-golden::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(255, 215, 0, 0.9), rgba(255, 215, 0, 0.3));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: var(--transition);
+}
+
+.link-golden:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.9);
+}
+
+.link-golden:hover::after {
+    transform: scaleX(1);
+}
+
 .social-links {
     display: flex;
     justify-content: center;
