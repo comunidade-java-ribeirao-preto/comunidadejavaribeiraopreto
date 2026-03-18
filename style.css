@@ -427,6 +427,14 @@ header {
     margin-bottom: 1rem;
 }
 
+.card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
 .event-type {
     background: var(--primary-color);
     color: var(--white);
@@ -672,6 +680,37 @@ header {
 .link-golden:hover::after {
     transform: scaleX(1);
 }
+
+.link-blue {
+    color: #003cff;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    transition: var(--transition);
+}
+
+.link-blue::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(0, 30, 255, 0.9), rgba(0, 76, 255, 0.3));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: var(--transition);
+}
+
+.link-blue:hover {
+    color: #0033fe;
+    text-shadow: 0 0 10px rgba(222, 222, 222, 0.9);
+}
+
+.link-blue:hover::after {
+    transform: scaleX(1);
+}
+
 
 .social-links {
     display: flex;
