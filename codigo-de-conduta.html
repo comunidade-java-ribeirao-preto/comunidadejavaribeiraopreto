@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código de Conduta - Comunidade Java Ribeirão Preto</title>
+    <meta name="description" content="Código de Conduta da Comunidade dedicada a desenvolvedores e entusiastas da linguagem Java em Ribeirão Preto.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo-java-ribeirao-preto.png" type="image/x-icon">
+    <style>
+        /* Estilos específicos para a página de Código de Conduta */
+        .content-section {
+            padding: 80px 0;
+            background-color: var(--white);
+            transition: background-color 0.3s ease;
+        }
+        
+        .dark-mode .content-section {
+            background-color: var(--dark-color);
+        }
+
+        .content-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .coc-section {
+            margin-bottom: 3rem;
+        }
+
+        .coc-section h2 {
+            color: var(--java-brown);
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+
+        .dark-mode .coc-section h2 {
+            color: var(--java-orange);
+        }
+
+        .coc-section h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: var(--java-orange);
+        }
+
+        .coc-section p {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            color: var(--text-primary);
+        }
+
+        .dark-mode .coc-section p, 
+        .dark-mode .coc-section li {
+            color: var(--light-color);
+        }
+
+        .coc-section ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .coc-section li {
+            margin-bottom: 0.8rem;
+            font-size: 1.05rem;
+            color: var(--text-primary);
+        }
+
+        .highlight-quote {
+            background: var(--java-beige);
+            border-left: 4px solid var(--java-brown);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            font-size: 1.2rem;
+            color: var(--java-brown);
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+        }
+
+        .dark-mode .highlight-quote {
+            background: rgba(93, 62, 40, 0.2);
+            color: var(--java-orange);
+            border-left-color: var(--java-orange);
+        }
+
+        .motto-box {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, rgba(0, 102, 255, 0.05) 0%, rgba(255, 153, 51, 0.05) 100%);
+            border-radius: var(--border-radius);
+            border: 1px solid rgba(0, 102, 255, 0.1);
+        }
+
+        .dark-mode .motto-box {
+            background: linear-gradient(135deg, rgba(0, 102, 255, 0.1) 0%, rgba(255, 153, 51, 0.1) 100%);
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .motto-text {
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: var(--primary-color);
+            line-height: 1.4;
+        }
+
+        .dark-mode .motto-text {
+            color: var(--accent-color);
+        }
+
+        /* Botão de Download */
+        .download-container {
+            text-align: center;
+            margin-top: 4rem;
+            padding: 2rem;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .dark-mode .download-container {
+            border-top-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-download {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--java-brown);
+            color: var(--white);
+            padding: 15px 30px;
+            border-radius: var(--border-radius);
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+            box-shadow: var(--shadow);
+        }
+
+        .btn-download:hover {
+            background: var(--java-orange);
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+            color: var(--white);
+        }
+
+        .btn-download i {
+            font-size: 1.2rem;
+        }
+
+        .nav-link {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        if (localStorage.getItem('theme') === 'dark') {
+            document.body.classList.add('dark-mode');
+        }
+    </script>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="assets/logo-java-ribeirao-preto.png" alt="Logo Comunidade Java Ribeirão Preto">
+                    <span class="logo-text">Comunidade Java Ribeirão Preto</span>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="index.html#home" class="nav-link">Início</a>
+                    <a href="index.html#about" class="nav-link">Sobre</a>
+                    <a href="index.html#events" class="nav-link">Eventos</a>
+                    <a href="index.html#gallery" class="nav-link">Galeria</a>
+                    <a href="cursos.html" class="nav-link">Cursos</a>
+                    <a href="index.html#supporters" class="nav-link">Apoiadores</a>
+                    <a href="index.html#contact" class="nav-link">Contato</a>
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Alternar tema" title="Alternar tema">🌙</button>
+                </div>
+                <div class="hamburger" id="hamburger" role="button" aria-label="Abrir menu" aria-expanded="false" tabindex="0">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="padding: 60px 0; min-height: auto;">
+            <div class="container" style="text-align: center;">
+                <h1 class="hero-title">Código de <span class="highlight">Conduta</span></h1>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="content-container">
+                
+                <div class="motto-box">
+                    <p class="motto-text"><strong>"Conectando desenvolvedores, compartilhando conhecimento e fortalecendo a comunidade Java em Ribeirão Preto."</strong></p>
+                </div>
+
+                <div class="coc-section">
+                    <h2>Nossa Missão</h2>
+                    <p>A Comunidade Java Ribeirão Preto nasceu com o propósito de conectar pessoas apaixonadas pela tecnologia Java, promovendo um ambiente de aprendizado, colaboração e crescimento profissional.</p>
+                    <p>Acreditamos que o conhecimento deve ser compartilhado. Por isso, buscamos criar um espaço onde quem está iniciando sua jornada encontre apoio, e onde profissionais experientes possam continuar evoluindo enquanto contribuem com a formação de outros desenvolvedores.</p>
+                </div>
+
+                <div class="coc-section">
+                    <h2>Nossos Valores</h2>
+                    <p>Nossa comunidade é guiada pelos seguintes princípios:</p>
+                    <ul>
+                        <li>Respeito acima de tudo.</li>
+                        <li>Compartilhamento de conhecimento.</li>
+                        <li>Colaboração em vez de competição.</li>
+                        <li>Ética profissional.</li>
+                        <li>Inclusão e acolhimento.</li>
+                        <li>Aprendizado contínuo.</li>
+                        <li>Humildade para ensinar e para aprender.</li>
+                    </ul>
+                </div>
+
+                <div class="coc-section">
+                    <h2>O que esperamos dos membros</h2>
+                    <p>Esperamos que todos os participantes:</p>
+                    <ul>
+                        <li>Tratem os demais com educação e respeito.</li>
+                        <li>Compartilhem conhecimento de forma construtiva.</li>
+                        <li>Aceitem opiniões diferentes com maturidade.</li>
+                        <li>Incentivem iniciantes a fazer perguntas e aprender.</li>
+                        <li>Contribuam para manter um ambiente saudável.</li>
+                        <li>Utilizem os canais da comunidade de maneira responsável.</li>
+                        <li>Respeitem direitos autorais e licenças de software.</li>
+                    </ul>
+                </div>
+
+                <div class="coc-section">
+                    <h2>Comportamentos inaceitáveis</h2>
+                    <p>Não serão tolerados:</p>
+                    <ul>
+                        <li>Ofensas pessoais ou ataques direcionados a qualquer membro.</li>
+                        <li>Discriminação de qualquer natureza.</li>
+                        <li>Assédio, intimidação ou ameaças.</li>
+                        <li>Linguagem ofensiva ou desrespeitosa.</li>
+                        <li>Divulgação de conteúdo ilegal ou malicioso.</li>
+                        <li>Spam, autopromoção excessiva ou propaganda não autorizada.</li>
+                        <li>Compartilhamento de informações falsas de forma intencional.</li>
+                        <li>Qualquer atitude que prejudique o ambiente colaborativo da comunidade.</li>
+                    </ul>
+                </div>
+
+                <div class="coc-section">
+                    <h2>Compartilhamento de Conhecimento</h2>
+                    <div class="highlight-quote">
+                        "Valorizamos o ensino e a troca de experiências."
+                    </div>
+                    <p>Ao responder dúvidas, procure orientar, explicar conceitos e incentivar o aprendizado, evitando respostas que desestimulem quem está começando.</p>
+                    <p><strong>Errar faz parte do processo de evolução.</strong></p>
+                </div>
+
+                <div class="coc-section">
+                    <h2>Eventos e Encontros</h2>
+                    <p>Durante eventos presenciais ou online, todos devem manter uma postura respeitosa e profissional, contribuindo para um ambiente agradável e seguro para todos os participantes.</p>
+                </div>
+
+                <div class="coc-section">
+                    <h2>Administração da Comunidade</h2>
+                    <p>A equipe organizadora é responsável por zelar pelo cumprimento deste Código de Conduta.</p>
+                    <p>Dependendo da gravidade da situação, poderão ser adotadas medidas como:</p>
+                    <ul>
+                        <li>Orientação ao participante.</li>
+                        <li>Advertência.</li>
+                        <li>Remoção de publicações.</li>
+                        <li>Suspensão temporária.</li>
+                        <li>Exclusão da comunidade.</li>
+                    </ul>
+                    <p>As decisões buscarão sempre preservar um ambiente saudável para todos.</p>
+                </div>
+
+                <div class="coc-section">
+                    <h2>Nosso Compromisso</h2>
+                    <p>A Comunidade Java Ribeirão Preto existe para fortalecer o ecossistema Java, incentivar o desenvolvimento profissional e aproximar pessoas que acreditam no poder do conhecimento compartilhado.</p>
+                    <p><strong>Todos são bem-vindos para aprender, ensinar e crescer juntos, desde que respeitem os princípios deste Código de Conduta.</strong></p>
+                </div>
+
+                <div class="download-container">
+                    <a href="assets/codigo-de-conduta.pdf" class="btn-download" download>
+                        <span>📄</span> Baixar Código de Conduta em PDF
+                    </a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/logo-java-ribeirao-preto.png" alt="Logo Comunidade Java Ribeirão Preto">
+                        <span>Comunidade Java Ribeirão Preto</span>
+                    </div>
+                    <p>Promovendo o desenvolvimento e a troca de conhecimentos sobre Java em Ribeirão Preto.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html#home">Início</a></li>
+                        <li><a href="index.html#about">Sobre</a></li>
+                        <li><a href="index.html#events">Eventos</a></li>
+                        <li><a href="index.html#gallery">Galeria</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="manutencao.html">Devs Open to Work</a></li>
+						<li><a href="codigo-de-conduta.html">Código de Conduta</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>📧 comunidadejavaribeiraopreto@gmail.com</p>
+                    <div class="footer-social">
+                        <a href="https://chat.whatsapp.com/LoqCp0AbmDm2FfRO1XLM27" target="_blank" rel="noopener">📱 WhatsApp</a>
+                        <a href="https://discord.gg/TqcZJE6B" target="_blank" rel="noopener">💬 Discord</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Comunidade Java Ribeirão Preto. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>
