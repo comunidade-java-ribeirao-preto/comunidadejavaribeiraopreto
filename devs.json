@@ -2,17 +2,17 @@
   "devs": [
     {
       "nome": "Lucas Lorran",
-      "foto": "https://github.com/LucasLorran22.png",
-      "descricao": "Desenvolvedor Full Stack apaixonado por Java e ecossistema Spring. Experiência em microserviços e arquiteturas escaláveis.",
-      "linkedin": "https://linkedin.com/in/lucaslorran",
-      "tags": ["Java", "Spring Boot", "Docker", "React"]
+      "foto": "https://github.com/LucasLorran.png",
+      "descricao": "Analista de Banco de Dados",
+      "linkedin": "https://www.linkedin.com/in/lucas-lorran-344726131/",
+      "tags": ["MySQL", "PostgreSQL", "Java", "Spring Boot", "Docker"]
     },
     {
       "nome": "Gabriel Secco",
       "foto": "https://github.com/GabrielSeccoX.png",
-      "descricao": "Desenvolvedor Backend focado em Java e Cloud Computing. Entusiasta de boas práticas de código e Clean Architecture.",
-      "linkedin": "https://linkedin.com/in/gabrielsecco",
-      "tags": ["Java", "Spring Boot", "AWS", "SQL"]
+      "descricao": "Desenvolvedor Backend Java",
+      "linkedin": "https://www.linkedin.com/in/gabriel-secco-29102024a/",
+      "tags": ["Java", "Spring Boot", "SQL"]
     }
   ]
 }
