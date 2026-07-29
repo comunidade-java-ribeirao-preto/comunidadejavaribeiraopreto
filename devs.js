@@ -4,7 +4,7 @@
  */
 
 (function() {
-    const DEVS_JSON_URL = 'https://comunidadejavaribeiraopreto.github.io/site/devs.json';
+    const DEVS_JSON_URL = 'https://comunidadejavaribeiraopreto.github.io/devs-open-to-work/devs.json';
     let allDevs = [];
     let selectedTags = new Set(); // Armazena as tags selecionadas para filtro múltiplo
 
