@@ -7,16 +7,34 @@
       "link": "https://mundi.ifsul.edu.br/portal/introducao-a-programacao-orientada-a-objetos.php"
     },
     {
-      "titulo": "Desenvolvimento Web Full Stack",
-      "descricao": "Domine as tecnologias de Front-end e Back-end para criar aplicações modernas.",
-      "imagem": "#",
-      "link": "#"
+      "titulo": "Curso de Java Básico Gratuito com Certificado  - Professora Loiane Groner",
+      "descricao": "Java Básico e Orientação à Objetos",
+      "imagem": "https://loiane.training/assets/images/CursoJavaOO.png",
+      "link": "https://loiane.training/cursos/java-basico"
     },
     {
-      "titulo": "Banco de Dados e SQL",
+      "titulo": "Fundamentos de Java - Professor Isidro",
       "descricao": "Aprenda a modelar dados e manipular informações em bancos de dados relacionais.",
-      "imagem": "#",
-      "link": "#"
+      "imagem": "https://www.professorisidro.com.br/wp-content/uploads/2019/04/java-logo.jpg",
+      "link": "https://www.professorisidro.com.br/curso/fundamentos-de-java/"
+    },
+    {
+      "titulo": "Fundamentos de Desenvolvimento WEB em Java - Professor Isidro",
+      "descricao": "Quer colocar aquele seu projeto de sistema Web no ar? Quer aprender a fazer um sistema do início ao fim? Não faz idéia de como fazer isso em Java? Que raios é aquele tal MVC? CRUD? AJAX? XML? JSON? Esse monte de letrinhas confusas? Os tutoriais da Internet só explicam até a parte de funcionar na sua máquina, mas na Internet que é bom, nada??Eu acho (só acho) que você está no lugar certo! 🙂",
+      "imagem": "https://www.professorisidro.com.br/wp-content/uploads/2019/04/java-logo.jpg",
+      "link": "https://www.professorisidro.com.br/curso/fundamentos-web-java/"
+    },
+    {
+      "titulo": "Java Básico [40 Horas] - Professor Gustavo Guanabara",
+      "descricao": "Domine os fundamentos da programação com Java de forma prática e acessível",
+      "imagem": "https://i.ytimg.com/vi/sTX0UEplF54/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=sTX0UEplF54&list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR"
+    },
+    {
+      "titulo": "MySQL [40 Horas] - Professor Gustavo Guanabara",
+      "descricao": "curso de MySQL do Curso em Vídeo é uma jornada completa para quem deseja compreender como funcionam os bancos de dados relacionais — da criação até o gerenciamento avançado de informações.",
+      "imagem": "https://i.ytimg.com/vi/Ofktsne-utM/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAW-uZ3WDnVgBFHVN_ktAIx36DJ-w",
+      "link": "https://www.youtube.com/watch?v=Ofktsne-utM&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r"
     }
   ]
 }
