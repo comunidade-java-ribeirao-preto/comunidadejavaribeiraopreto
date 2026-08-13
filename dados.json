@@ -1,10 +1,10 @@
 {
   "cursos": [
     {
-      "titulo": "Introdução à Programação Orientada a Objetos",
-      "descricao": "Aprenda os principais conceitos da Programação Orientada a Objetos e conheça melhor suas vantagens.",
-      "imagem": "https://mundi.ifsul.edu.br/portal/image/course/ipo.png",
-      "link": "https://mundi.ifsul.edu.br/portal/introducao-a-programacao-orientada-a-objetos.php"
+      "titulo": "Java Development — EuCapacito + FIAP",
+      "descricao": "Aprenda a programar de forma prática e simples.",
+      "imagem": "https://www.eucapacito.com.br/wp-content/uploads/2021/10/AdobeStock_332451088_Editorial_Use_Only-scaled-e1634851095747-1536x1042.jpeg.webp",
+      "link": "https://www.eucapacito.com.br/cursos/java-development/"
     },
     {
       "titulo": "Curso de Java Básico Gratuito com Certificado  - Professora Loiane Groner",
